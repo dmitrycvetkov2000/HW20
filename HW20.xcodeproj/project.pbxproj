@@ -13,6 +13,16 @@
 		0A56254B29205C5E002883F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A56254929205C5E002883F4 /* Main.storyboard */; };
 		0A56254D29205C61002883F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A56254C29205C61002883F4 /* Assets.xcassets */; };
 		0A56255029205C61002883F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A56254E29205C61002883F4 /* LaunchScreen.storyboard */; };
+		0A562569292286E2002883F4 /* FirstScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A562568292286E2002883F4 /* FirstScreenPresenter.swift */; };
+		0A56256B2922881A002883F4 /* FirstScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56256A2922881A002883F4 /* FirstScreenRouter.swift */; };
+		0A56256D292288AA002883F4 /* FirstScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56256C292288AA002883F4 /* FirstScreenInteractor.swift */; };
+		0A56256F29228961002883F4 /* FirstScreenModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56256E29228961002883F4 /* FirstScreenModuleBuilder.swift */; };
+		0A56257229228C1E002883F4 /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56257129228C1E002883F4 /* DateService.swift */; };
+		0A562575292297F6002883F4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A562574292297F6002883F4 /* SecondViewController.swift */; };
+		0A56257729229818002883F4 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56257629229818002883F4 /* SecondPresenter.swift */; };
+		0A56257929229828002883F4 /* SecondRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56257829229828002883F4 /* SecondRouter.swift */; };
+		0A56257B29229839002883F4 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56257A29229839002883F4 /* SecondInteractor.swift */; };
+		0A56257D29229851002883F4 /* SecondModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A56257C29229851002883F4 /* SecondModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		0A56254C29205C61002883F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A56254F29205C61002883F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A56255129205C61002883F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A562568292286E2002883F4 /* FirstScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenPresenter.swift; sourceTree = "<group>"; };
+		0A56256A2922881A002883F4 /* FirstScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenRouter.swift; sourceTree = "<group>"; };
+		0A56256C292288AA002883F4 /* FirstScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenInteractor.swift; sourceTree = "<group>"; };
+		0A56256E29228961002883F4 /* FirstScreenModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenModuleBuilder.swift; sourceTree = "<group>"; };
+		0A56257129228C1E002883F4 /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		0A562574292297F6002883F4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0A56257629229818002883F4 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		0A56257829229828002883F4 /* SecondRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondRouter.swift; sourceTree = "<group>"; };
+		0A56257A29229839002883F4 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
+		0A56257C29229851002883F4 /* SecondModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModuleBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,49 @@
 		0A56254229205C5E002883F4 /* HW20 */ = {
 			isa = PBXGroup;
 			children = (
+				0A5625732922965E002883F4 /* SecondScreen */,
+				0A56257029228C08002883F4 /* API */,
+				0A562567292285FA002883F4 /* FirstScreen */,
 				0A56254329205C5E002883F4 /* AppDelegate.swift */,
 				0A56254529205C5E002883F4 /* SceneDelegate.swift */,
-				0A56254729205C5E002883F4 /* ViewController.swift */,
 				0A56254929205C5E002883F4 /* Main.storyboard */,
 				0A56254C29205C61002883F4 /* Assets.xcassets */,
 				0A56254E29205C61002883F4 /* LaunchScreen.storyboard */,
 				0A56255129205C61002883F4 /* Info.plist */,
 			);
 			path = HW20;
+			sourceTree = "<group>";
+		};
+		0A562567292285FA002883F4 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A56254729205C5E002883F4 /* ViewController.swift */,
+				0A562568292286E2002883F4 /* FirstScreenPresenter.swift */,
+				0A56256A2922881A002883F4 /* FirstScreenRouter.swift */,
+				0A56256C292288AA002883F4 /* FirstScreenInteractor.swift */,
+				0A56256E29228961002883F4 /* FirstScreenModuleBuilder.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		0A56257029228C08002883F4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0A56257129228C1E002883F4 /* DateService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0A5625732922965E002883F4 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A562574292297F6002883F4 /* SecondViewController.swift */,
+				0A56257629229818002883F4 /* SecondPresenter.swift */,
+				0A56257829229828002883F4 /* SecondRouter.swift */,
+				0A56257A29229839002883F4 /* SecondInteractor.swift */,
+				0A56257C29229851002883F4 /* SecondModuleBuilder.swift */,
+			);
+			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +192,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A56256F29228961002883F4 /* FirstScreenModuleBuilder.swift in Sources */,
 				0A56254829205C5E002883F4 /* ViewController.swift in Sources */,
+				0A56257929229828002883F4 /* SecondRouter.swift in Sources */,
+				0A562569292286E2002883F4 /* FirstScreenPresenter.swift in Sources */,
+				0A562575292297F6002883F4 /* SecondViewController.swift in Sources */,
+				0A56257229228C1E002883F4 /* DateService.swift in Sources */,
 				0A56254429205C5E002883F4 /* AppDelegate.swift in Sources */,
 				0A56254629205C5E002883F4 /* SceneDelegate.swift in Sources */,
+				0A56257D29229851002883F4 /* SecondModuleBuilder.swift in Sources */,
+				0A56257B29229839002883F4 /* SecondInteractor.swift in Sources */,
+				0A56256B2922881A002883F4 /* FirstScreenRouter.swift in Sources */,
+				0A56257729229818002883F4 /* SecondPresenter.swift in Sources */,
+				0A56256D292288AA002883F4 /* FirstScreenInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
